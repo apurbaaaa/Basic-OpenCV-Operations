@@ -1,0 +1,70 @@
+# OpenCV Basics Repository
+
+Welcome to the **OpenCV Basics Repository**! This repository contains fundamental OpenCV operations that serve as a foundation for image processing and computer vision tasks.
+
+## Features
+- Reading and displaying images
+- Converting images to grayscale
+- Image resizing and cropping
+- Drawing shapes and text on images
+- Applying filters and edge detection
+- Video processing with OpenCV
+- Basic object detection
+
+## Prerequisites
+Ensure you have the following installed:
+- Python 3.x
+- OpenCV (`pip install opencv-python`)
+- NumPy (`pip install numpy`)
+
+## Installation
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/apurbaaaa/Basic-OpenCV-Operations.git
+   cd Basic-OpenCV-Operations
+   ```
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+## Usage
+Run any script using:
+```bash
+python script_name.py
+```
+Example:
+```bash
+python read_image.py
+```
+
+## Directory Structure
+```
+Basic-OpenCV-Operations/
+│── images/                # Sample images
+│── videos/                # Sample videos
+│── scripts/
+│   ├── read_image.py      # Load and display an image
+│   ├── grayscale.py       # Convert an image to grayscale
+│   ├── resize_crop.py     # Resize and crop an image
+│   ├── draw_shapes.py     # Draw basic shapes
+│   ├── filters.py         # Apply image filters
+│   ├── edge_detection.py  # Perform edge detection
+│   ├── video_processing.py # Process video files
+│── README.md              # This README file
+│── requirements.txt       # Required dependencies
+```
+
+## Contributing
+Contributions are welcome! If you want to add new features or fix bugs:
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature-branch`)
+3. Commit your changes (`git commit -m 'Add new feature'`)
+4. Push to your fork and submit a pull request
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contact
+For any inquiries, feel free to reach out via GitHub Issues or visit the repository: [Basic OpenCV Operations](https://github.com/apurbaaaa/Basic-OpenCV-Operations).
+
